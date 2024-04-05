@@ -1,0 +1,192 @@
+
+body {
+    margin: 0 auto;
+}
+
+.banner{
+    background-image:url(images/banner2.jpg);
+    background-position:center;
+    background-size: cover;
+    font-family: 'Futura', 'Helvetica';
+    color: white;
+    text-align: center;
+    height: 500px;
+    font-size: 20px;
+} 
+
+.banner h1{
+    padding-top: 250px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 25px;
+    background: rgba(255, 255, 255, 0.958);
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Futura', 'Helvetica';
+    border-radius: 25px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 50px;
+}
+  
+.cta-button:hover {
+    background-color: #f8f8f8be;
+    box-shadow: 0 10px 25px rgba(22, 22, 22, 0.394);
+}
+  
+.container{
+    margin: 40px auto;
+    width: 900px;
+    color: white;
+    font-family: 'Futura', 'Helvetica';
+    font-optical-sizing: auto;
+    font-weight: weight;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card-white{
+      box-shadow: 0 10px 20px rgb(41, 40, 40);
+      border-radius: 4px;
+      margin: 50px auto;
+      text-align: center;
+      padding: 30px 10px;
+}
+
+.Card-white:hover{
+    transform: scale(1.1);
+}
+   
+.Card-white p{
+      color: white
+}
+   
+.Card-white a{
+    font-family: 'Futura', 'Helvetica';
+      text-decoration: none;
+      border-radius: 30px;
+      box-shadow: 0 20px 25px rgba(0, 0, 0, 0.1);
+      background-color: #999999df;
+      color: rgba(255, 254, 254, 0.892);
+      font-size: 15px;
+      padding: 8px;
+}
+   
+.Card-white a:hover{
+  background-color: rgba(240, 237, 237, 0.886);
+  color: rgb(0, 0, 0);
+}
+   
+.Card-white h3{
+    font-family: 'Futura', 'Helvetica';
+    color: rgb(16, 16, 16);
+}
+   
+.Card-white img{
+      border-radius: 4px;
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+}
+
+.card{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 30px;
+}
+
+.bloc{
+    background-image:url(images/bloc.png);
+    background-position:center;
+    background-size: cover;
+    font-family: 'Futura', 'Helvetica';
+    color: white;
+    text-align: center;
+    height: 600px;
+    font-size: 20px;
+} 
+
+.bloc h1{
+    padding-top: 400px;
+}
+
+.cta-button2 {
+    display: inline-block;
+    padding: 15px 25px;
+    background: rgba(255, 255, 255, 0.958);
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Futura', 'Helvetica';
+    border-radius: 25px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.cta-button2:hover {
+    background-color: #f8f8f8be;
+    box-shadow: 0 10px 25px rgba(22, 22, 22, 0.394);
+}  
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #222121;
+    color: white;
+    font-family: 'Futura', 'Helvetica';
+}
+ 
+.footer-signature h3 {
+    color: white;
+    font-family: 'Futura', 'Helvetica';
+    font-size: 12px;
+    padding-top: 200px;
+}
+ 
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column h3 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+  
+.footer-column a {
+    color: #ccc;
+    text-decoration: none;
+    margin-bottom: 5px;
+}
+
+.footer-column a:hover {
+    color: #fff;
+}
+  
+.footer-column p {
+    max-width: 200px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+}
+  
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+}
+  
+.social-icons a:last-child {
+    margin-right: 0;
+}
+  
+.effect {
+    transition: 0.5s;
+}
